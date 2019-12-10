@@ -18,9 +18,9 @@ function pressIt(){
 }//end pressIT
 
 function submitIt(){
-  $("#typing").on("submit", function(key) {
-    if (key.which == 71)
-    alert('You pressed the G key');
+  $("form").on("submit", function(key) {
+
+    alert('Your form is going to be submitted now.');
   })
 
 }//end submitit
