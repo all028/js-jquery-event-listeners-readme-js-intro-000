@@ -9,7 +9,7 @@ function frameIt(){
     .tasty {border-color: red; border-style: solid; }
 
 Read more: https://html.com/attributes/img-border/#ixzz67fOV9yXf
-    $('img').append('<img class="tasty" src="https://s3.amazonaws.com/after-school-assets/minion-tongue.jpg" />')
+    $('img').append('<img border="tasty" src="https://s3.amazonaws.com/after-school-assets/minion-tongue.jpg" />')
 
   })
 
