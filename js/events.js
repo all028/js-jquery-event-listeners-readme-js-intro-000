@@ -1,4 +1,8 @@
-//define functions here
+function getIt(){
+
+  
+}//end getIT
+
 
 $(document).ready(function(){
 
