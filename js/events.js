@@ -5,7 +5,7 @@ function getIt(){
 }//end getIT
 
 function frameIt(){
-  $("form").on("load", function() {
+  $("img").on("load", function() {
 
     $('img').addClass("tasty")
 //  $('img').append('<img class="tasty" src="minion-tongue.jpg" />')
