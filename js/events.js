@@ -7,7 +7,7 @@ function getIt(){
 function frameIt(){
   $("form").on("load", function() {
 
-    $('img').append('<img src="https://s3.amazonaws.com/after-school-assets/minion-tongue.jpg" border="tasty" />')
+    $('img').addClass("tasty")
 //  $('img').append('<img class="tasty" src="minion-tongue.jpg" />')
 
   })
