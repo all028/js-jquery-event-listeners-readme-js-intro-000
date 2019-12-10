@@ -18,7 +18,10 @@ function pressIt(){
 }//end pressIT
 
 function submitIt(){
-
+  $("#typing").on("submit", function(key) {
+    if (key.which == 71)
+    alert('You pressed the G key');
+  })
 
 }//end submitit
 
