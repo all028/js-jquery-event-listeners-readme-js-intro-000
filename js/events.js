@@ -9,7 +9,7 @@ function frameIt(){
   //  .tasty {border-color: red; border-style: solid; }
 
 
-    $('img').append('<img border="tasty" src="https://s3.amazonaws.com/after-school-assets/minion-tongue.jpg" />')
+    $('img').append('<img class="tasty" src="https://s3.amazonaws.com/after-school-assets/minion-tongue.jpg" />')
 
   })
 
