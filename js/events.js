@@ -5,7 +5,7 @@ function getIt(){
 }//end getIT
 
 function frameIt(){
-  $("form").on("load", function() {
+  $("img").on("load", function() {
 
 
   })
